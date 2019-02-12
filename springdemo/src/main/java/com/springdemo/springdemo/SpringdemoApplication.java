@@ -11,10 +11,12 @@ public class SpringdemoApplication {
 	
 	@RequestMapping("/")
 	public String helloMethod() {
+
 		System.out.println("hi");
 	 System.out.println("welcome");
 		System.out.println("hello....");
-		return "welcome world";
+		System.out.println("ramana");
+		return "hello welcome world";
 	}
 	
 	public static void main(String[] args) {
