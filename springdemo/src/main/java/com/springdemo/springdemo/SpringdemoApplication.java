@@ -12,6 +12,7 @@ public class SpringdemoApplication {
 	@RequestMapping("/")
 	public String helloMethod() {
 		System.out.println("hi");
+	 System.out.println("welcome");
 		return "hello world";
 	}
 	
